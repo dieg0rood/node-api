@@ -1,0 +1,31 @@
+{
+  "name": "api-node-basic",
+  "version": "1.0.0",
+  "description": "My first Node API with Express and MySQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "NODE_ENV=dev nodemon src/index.js",
+    "start:prod": "NODE_ENV=prod node src/index.js"
+  },
+  "keywords": [
+    "NodeJs",
+    "MySQL",
+    "Express",
+    "API"
+  ],
+  "author": "Diego Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "ip": "^2.0.1",
+    "mysql": "^2.18.1",
+    "pino": "^8.19.0",
+    "pino-pretty": "^10.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
